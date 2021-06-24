@@ -1,0 +1,38 @@
+body {
+  /* background-color: #191b1d; */
+  background-image: url(https://images.kirklands.com/is/image/Kirklands/183823_1?$tProduct$);
+  /* https://www.rd.com/wp-content/uploads/2019/10/tic-tac-toe-scaled.jpg */
+  background-position: center;
+  background-size: 900px;
+  background-position-x: left;
+  grid-area: auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1px;
+  border-color: seashell; 
+  margin-top: 30px;
+}
+
+.box {
+  width: auto ;
+  height: 150px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-width: 10px;
+  background-color: rosybrown;
+  
+}
+
+.icon {
+  font-size: 60px;
+  
+}
+
+mark{
+  background-color: rgb(185, 207, 230);
+  height: 20px;
+}
